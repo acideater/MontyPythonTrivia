@@ -1,11 +1,13 @@
 <resources>
+    // Main
     <string name="app_name">Monty Python Trivia</string>
+    <string name="app_title_results">Monty Python Trivia - Results</string>
     <string name="logo">Monty Python Trivia Logo</string>
     <string name="title">Welcome to the Bridge of Death!</string>
     <string name="stop">STOP!</string>
     <string name="oldman">The old man from scene twenty-four</string>
     <string name="intro">"I'm the old man from scene twenty-four and who approacheth the Bridge of Death must answer me these questions three (ten, actually), ere the other side he see."</string>
-
+    // Questions
     <string name="q1">"#1 Pretend you're called Loretta. Where would you keep your baby?"</string>
     <string name="a11">"In a womb"</string>
     <string name="a12">"In a box"</string>
@@ -58,7 +60,17 @@
     <string name="a107">"Lobster Thermidor au Crevettes with a mornay sauce served in a Provencale manner with shallots and aubergines garnished with truffle pate, brandy and with a fried egg on top and Spam"</string>
     <string name="a108">"Spam, Spam, Spam, Spam, Spam, Spam, baked beans, Spam, Spam, Spam and Spam"</string>
     <string name="a109">"Spam, Spam, Spam, egg and Spam"</string>
-    <string name="submit">"Right. Off you go."</string>
+    // Results
+    <string name="yay_title">"Congratulations! You probably know The Meaning of Life"</string>
+    <string name="yay_text">"You did so well you could make into the Upper Class Twit of the Year Olympics. And, finally, here are some completely gratuitous pictures of penises to annoy the censors and to hopefully spark some sort of controversy..."</string>
+    <string name="ehh_title">Average! No more, no less</string>
+    <string name="ehh_text">"You probably live the Dull Life of a City Stockbroker and you are OK with that."</string>
+    <string name="bad_title">"FAIL! You will be thrown into the Gorge of Eternal Peril"</string>
+    <string name="bad_text">"I'm sure you didn't expect all that Spanish Inquisition, right? Now, let's see if you can handle THE COMFY CHAIR!"</string>
+    <string name="total"> /420 points</string>
+    // Buttons
     <string name="start">"Ask me the questions, bridgekeeper. \n I am not afraid."</string>
+    <string name="submit">"Right. Off you go."</string>
+    <string name="reset">"Try again"</string>
 
 </resources>

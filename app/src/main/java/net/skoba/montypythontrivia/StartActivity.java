@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
 public class StartActivity extends AppCompatActivity {
 
@@ -137,27 +138,74 @@ public class StartActivity extends AppCompatActivity {
             triviaScore = triviaScore + 14;
         }
 
+        CheckBox answer102 = findViewById(R.id.answer102);
+        if (answer102.isChecked()) {
+            triviaScore = triviaScore - 7;
+        }
+
         CheckBox answer103 = findViewById(R.id.answer103);
         if (answer103.isChecked()) {
             triviaScore = triviaScore + 14;
+        }
+
+        CheckBox answer104 = findViewById(R.id.answer104);
+        if (answer104.isChecked()) {
+            triviaScore = triviaScore - 7;
+        }
+
+        CheckBox answer105 = findViewById(R.id.answer105);
+        if (answer105.isChecked()) {
+            triviaScore = triviaScore - 7;
         }
 
         CheckBox answer106 = findViewById(R.id.answer106);
         if (answer106.isChecked()) {
             triviaScore = triviaScore + 14;
         }
+
+        CheckBox answer107 = findViewById(R.id.answer107);
+        if (answer107.isChecked()) {
+            triviaScore = triviaScore - 7;
+        }
+
+        CheckBox answer108 = findViewById(R.id.answer108);
+        if (answer108.isChecked()) {
+            triviaScore = triviaScore - 7;
+        }
+
+        CheckBox answer109 = findViewById(R.id.answer109);
+        if (answer109.isChecked()) {
+            triviaScore = triviaScore - 7;
+        }
+    }
+
+    public void finalScore() {
+        questionOne();
+        questionTwo();
+        questionThree();
+        questionFour();
+        questionFive();
+        questionSix();
+        questionSeven();
+        questionEight();
+        questionNine();
+        questionTen();
     }
 
     public void openResultsActivity(View view) {
-        Intent i = new Intent(this, ResultsActivity.class);
-        startActivity(i);
+        finalScore();
+
+        Intent resultsIntent = new Intent(this, ResultsActivity.class);
+        resultsIntent.putExtra("finalScore", triviaScore);
+        startActivity(resultsIntent);
     }
+
+
 
 
     /*
      * TODOs:
-     * add Resets the trivia button
-     * add empty question warning toast
+     * add empty question warning
      */
 
 }

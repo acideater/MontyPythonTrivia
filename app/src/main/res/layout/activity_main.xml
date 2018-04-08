@@ -28,7 +28,7 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="wrap_content"
             android:contentDescription="@string/oldman"
             android:scaleType="centerCrop"
             android:src="@drawable/oldman24" />
@@ -60,7 +60,6 @@
             android:layout_marginTop="16dp"
             android:onClick="openStartActivity"
             android:text="@string/start" />
-
 
     </LinearLayout>
 
