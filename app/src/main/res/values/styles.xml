@@ -8,4 +8,13 @@
         <item name="colorAccent">#FF9800 </item>
     </style>
 
+
+    <!-- Style for questions -->
+    <style name="QuestionsStyle">
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
 </resources>

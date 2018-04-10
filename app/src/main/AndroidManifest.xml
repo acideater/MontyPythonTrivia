@@ -19,7 +19,7 @@
         <activity
             android:name=".ResultsActivity"
             android:label="@string/app_title_results" />
-        <activity android:name=".StartActivity" />
+        <activity android:name=".QuizActivity" />
     </application>
 
 </manifest>

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".StartActivity">
+    tools:context=".QuizActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,22 +15,31 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2DFDB"
+            android:background="@android:color/holo_orange_dark"
             android:orientation="horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:text="#1" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:text="@string/q1"
-                android:textSize="16sp" />
+                style="@style/QuestionsStyle" />
 
         </LinearLayout>
 
         <RadioGroup
             android:id="@+id/questionOne"
+            android:padding="16dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp">
@@ -70,17 +79,25 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2DFDB"
+            android:background="@android:color/holo_orange_dark"
             android:orientation="horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:text="#2" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:text="@string/q2"
-                android:textSize="16sp" />
+                style="@style/QuestionsStyle" />
 
         </LinearLayout>
 
@@ -88,7 +105,8 @@
             android:id="@+id/questionTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_margin="16dp"
+            android:padding="16dp">
 
             <RadioButton
                 android:id="@+id/answer21"
@@ -121,19 +139,29 @@
 
 
         <!-- Question 3 -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2DFDB"
+            android:background="@android:color/holo_orange_dark"
+            android:orientation="horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:text="#3" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:text="@string/q3"
-                android:textSize="16sp" />
+                style="@style/QuestionsStyle" />
 
         </LinearLayout>
 
@@ -141,7 +169,8 @@
             android:id="@+id/questionThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_margin="16dp"
+            android:padding="16dp">
 
             <RadioButton
                 android:id="@+id/answer31"
@@ -174,19 +203,29 @@
         </RadioGroup>
 
         <!-- Question 4 -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2DFDB"
+            android:background="@android:color/holo_orange_dark"
+            android:orientation="horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:text="#42" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:text="@string/q4"
-                android:textSize="16sp" />
+                style="@style/QuestionsStyle" />
 
         </LinearLayout>
 
@@ -194,7 +233,8 @@
             android:id="@+id/questionFour"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_margin="16dp"
+            android:padding="16dp">
 
             <RadioButton
                 android:id="@+id/answer41"
@@ -227,19 +267,29 @@
         </RadioGroup>
 
         <!-- Question 5 -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2DFDB"
+            android:background="@android:color/holo_orange_dark"
+            android:orientation="horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:text="#5" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:text="@string/q5"
-                android:textSize="16sp" />
+                style="@style/QuestionsStyle" />
 
         </LinearLayout>
 
@@ -247,7 +297,8 @@
             android:id="@+id/questionFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_margin="16dp"
+            android:padding="16dp">
 
             <RadioButton
                 android:id="@+id/answer51"
@@ -280,6 +331,7 @@
         </RadioGroup>
 
         <!-- Question 6 -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -288,16 +340,25 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#B2DFDB"
+                android:background="@android:color/holo_orange_dark"
+                android:orientation="horizontal"
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp">
 
                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="28sp"
+                    android:textColor="@android:color/black"
+                    android:text="#6" />
+
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
+                    android:layout_height="match_parent"
                     android:text="@string/q6"
-                    android:textSize="16sp" />
+                    style="@style/QuestionsStyle" />
 
             </LinearLayout>
 
@@ -310,29 +371,49 @@
 
             <EditText
                 android:id="@+id/answer60"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:hint="@string/a61"
                 android:inputType="textCapWords"
                 android:textSize="16sp" />
 
+            <Button
+                android:id="@+id/tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:onClick="displayTipMsg"
+                android:text="@string/tip"
+                />
+
         </LinearLayout>
 
         <!-- Question 7 -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2DFDB"
+            android:background="@android:color/holo_orange_dark"
+            android:orientation="horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:text="#7" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:text="@string/q7"
-                android:textSize="16sp" />
+                style="@style/QuestionsStyle" />
 
         </LinearLayout>
 
@@ -340,7 +421,8 @@
             android:id="@+id/questionSeven"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_margin="16dp"
+            android:padding="16dp">
 
             <RadioButton
                 android:id="@+id/answer71"
@@ -373,19 +455,29 @@
         </RadioGroup>
 
         <!-- Question 8 -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2DFDB"
+            android:background="@android:color/holo_orange_dark"
+            android:orientation="horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:text="#8" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:text="@string/q8"
-                android:textSize="16sp" />
+                style="@style/QuestionsStyle" />
 
         </LinearLayout>
 
@@ -393,7 +485,8 @@
             android:id="@+id/questionEight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_margin="16dp"
+            android:padding="16dp">
 
             <RadioButton
                 android:id="@+id/answer81"
@@ -426,19 +519,29 @@
         </RadioGroup>
 
         <!-- Question 9 -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2DFDB"
+            android:background="@android:color/holo_orange_dark"
+            android:orientation="horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:text="#9" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:text="@string/q9"
-                android:textSize="16sp" />
+                style="@style/QuestionsStyle" />
 
         </LinearLayout>
 
@@ -446,7 +549,8 @@
             android:id="@+id/questionNine"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp">
+            android:layout_margin="16dp"
+            android:padding="16dp">
 
             <RadioButton
                 android:id="@+id/answer91"
@@ -479,20 +583,29 @@
         </RadioGroup>
 
         <!-- Question 10 -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#B2DFDB"
+            android:background="@android:color/holo_orange_dark"
             android:orientation="horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp">
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:textSize="28sp"
+                android:textColor="@android:color/black"
+                android:text="#10" />
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
+                android:layout_height="match_parent"
                 android:text="@string/q10"
-                android:textSize="16sp" />
+                style="@style/QuestionsStyle" />
 
         </LinearLayout>
 
@@ -501,6 +614,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
+            android:padding="16dp"
             android:orientation="vertical">
 
             <CheckBox
@@ -575,7 +689,8 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
             android:onClick="openResultsActivity"
-            android:text="@string/submit" />
+            android:text="@string/submit"
+            android:textSize="16sp" />
 
 
     </LinearLayout>
