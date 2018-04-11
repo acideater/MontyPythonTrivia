@@ -74,6 +74,12 @@ All variables, methods, and resource IDs are descriptively named such that anoth
 The code is properly formatted i.e. there are no unnecessary blank lines; there are no unused variables or methods; there is no commented out code.
 The code also has proper indentation when defining variables and methods.
 
+## Screenshots
+
+<img src="https://github.com/acideater/MontyPythonTrivia/blob/master/screenshots/mp001.png?raw=true" width="280">
+<img src="https://github.com/acideater/MontyPythonTrivia/blob/master/screenshots/mp002.png?raw=true" width="280">
+<img src="https://github.com/acideater/MontyPythonTrivia/blob/master/screenshots/mp003.png?raw=true" width="280">
+
 ## Author
 
 Ana P Pimentel - [acideater](https://github.com/acideater)
